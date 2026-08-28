@@ -1,0 +1,171 @@
+body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        aside {
+            border: 4px solid red;
+            display: flex;
+            /* text-align: center; */
+            flex-direction: row;
+            justify-content: center;
+            background-color: rgb(66, 66, 212);
+            margin: 10px;
+        }
+
+        .claim {
+            text-decoration: none;
+            color: red;
+        }
+
+        .claim:hover {
+            background-color: white;
+            color: blue;
+            text-align: center;
+            padding: 4px;
+            border-radius: 3px;
+        }
+        header{
+            display: flex;
+            gap: 80px;
+            margin: 10px;
+            padding: 60px;
+        }
+        .logo-img img{
+            border: 4px solid rgb(0, 255, 85);
+            border-radius: 8px;
+            outline: auto;
+        }
+        
+        
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            /* justify-content: flex-end; */
+            
+        }
+        nav li a{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            border: 2px solid pink;
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        nav li a:hover{
+            color: blue;
+            background-color: white;
+        }
+
+
+
+        #banner-message {
+            font-weight: 700;
+            color: white;
+        }
+
+        .hero {
+
+            margin: 10px;
+            padding: 40px;
+            display: flex;
+            gap: 16px;
+            flex: 1;
+            align-items: right;
+            background-color: white;
+            border-radius: 6px;
+
+        }
+
+        .hero-headline {
+            color: blueviolet;
+        }
+
+        .hero-desc {
+            text-align: center;
+            font-weight: 400;
+
+        }
+
+        .hero-btn {
+            background-color: blue;
+            color: white;
+            border: 4px solid red;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            font-weight: 500;
+            font-size: medium;
+        }
+
+        .hero-btn:hover {
+            background-color: white;
+            color: blue;
+
+        }
+
+        .hero-image img {
+            display: block;
+            border-radius: 20px;
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+
+        .products-title{
+            padding: 60px;
+            text-align: center;
+        }
+
+        .products{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .mono-large{
+            border: 2px solid purple;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .mono-small{
+             border: 2px solid purple;
+              padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .poly-panel{
+             border: 2px solid purple;
+              padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(9, 9, 47);
+            margin: 10px;
+        }
+
+        .footer{
+            display: flex;
+            gap: 100px;
+            align-items: center;
+            
+        }
+        .footer-bottom{
+            
+            color: white;
+            
+            padding: 60px;
+            
+    
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            
+        }
