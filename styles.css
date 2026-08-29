@@ -164,9 +164,21 @@ footer {
   display: flex;
   gap: 100px;
   align-items: center;
+  padding: 60px;
+  justify-content: left;
+  flex-direction: row-reverse;
+  flex: 1;
+}
+
+.logo-img{
+  padding-left: 20px;
 }
 footer h3{
     color: white;
+    background-color:purple;
+    text-align: center;
+    padding: 2px;
+    border-radius: 4px;
 }
 footer ul li a{
     list-style: none;
@@ -180,6 +192,7 @@ footer ul li a:hover{
     color: blue;
     background-color: white;
     padding: 4px;
+    text-align: center;
     border-radius: 6px;
     border: 2px solid pink;
 }
